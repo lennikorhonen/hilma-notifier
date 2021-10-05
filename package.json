@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Application to get new info from hilma-api",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node ./index.js",
+    "start": "node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lenni Korhonen",
@@ -16,7 +17,9 @@
   },
   "dependencies": {
     "axios": "^0.22.0",
+    "chai": "^4.3.4",
     "dotenv": "^10.0.0",
+    "mocha": "^9.1.2",
     "nodemon": "^2.0.13"
   }
 }
