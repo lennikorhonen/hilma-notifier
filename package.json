@@ -1,0 +1,22 @@
+{
+  "name": "hilma-notifier",
+  "version": "1.0.0",
+  "description": "Application to get new info from hilma-api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lenni Korhonen",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6"
+  },
+  "dependencies": {
+    "axios": "^0.22.0",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
